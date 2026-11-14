@@ -12,6 +12,9 @@ class ArithmeticTests(unittest.TestCase):
         self.assertEqual(multiply(9, 0), 0)
     def test_multiply_two_negatives(self):
         self.assertEqual(multiply(-2, -3), 6)
+    def test_negative_inputs_followup(self):
+        self.assertEqual(add(-2, -3), -5)
+        self.assertEqual(multiply(-2, -3), 6)
 
 if __name__ == "__main__":
     unittest.main()
