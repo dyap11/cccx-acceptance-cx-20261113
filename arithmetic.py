@@ -1,5 +1,5 @@
 def add(a, b):
-    return a - b
+    return a + b
 
 def multiply(a, b):
-    raise NotImplementedError("implement multiply")
+    return a * b
